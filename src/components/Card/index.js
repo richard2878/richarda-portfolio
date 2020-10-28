@@ -13,10 +13,12 @@ const useStyles = makeStyles({
     maxWidth: 400,
     margin:'8px', 
     borderRadius:'15px 15px',
-    marginBottom: '50px'
+    marginBottom: '50px',
+    backgroundColor: '#BFBDC1',
   },
   media: {
-    height: '160px',
+    marginTop: '20px',
+    height: '180px',
     width: '350px',
     padding: 0,
     margin: 0,
@@ -40,10 +42,10 @@ export default function MediaCard(props) {
           title="Click here"
         />
         <CardContent className={classes.body}>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography gutterBottom variant="h5" component="h2" style={{color:'#6D6A75'}}>
             {props.title}
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="body2" component="p" style={{color:'#6D6A75'}}>
             <span>{props.desc1}</span><br/><br/>
             <span>{props.desc2}</span>
           </Typography>
