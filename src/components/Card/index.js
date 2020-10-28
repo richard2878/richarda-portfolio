@@ -10,8 +10,7 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 400,
-    margin:'8px', 
+    maxWidth: '350px',
     borderRadius:'15px 15px',
     marginBottom: '50px',
     backgroundColor: '#BFBDC1',
