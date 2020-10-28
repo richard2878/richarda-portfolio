@@ -26,7 +26,7 @@ const data = [
     {
         href: "https://vast-ocean-17405.herokuapp.com/",
         img:img3,
-        title: "Portfolio Beta",
+        title: "Magnus Opes",
         desc1: "Description: Portfolio draft, using HTML and CSS.",
         desc2: "Tech Used: HTML, CSS, JavaScript, Bootstrap, Terminal, GitHub",
         repo: "https://github.com/rbraun04/MagnusOpus"
